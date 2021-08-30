@@ -8,7 +8,7 @@ export default function About() {
         <div>
             <Navigation/>
             <Slider/>
-            <TitleHead>realizamos progresos para el desarrollo del confort termico de calidad</TitleHead>
+            <TitleHead>realizamos progresos para el desarrollo del comfort termico de calidad</TitleHead>
 
             <div className="container grid grid-cols-2 gap-4">
                 <div>
@@ -16,9 +16,10 @@ export default function About() {
                         Somos un equipo de profesionales, comprometidos con los cambios
                         ambientales y climáticos en nuestro territorio, por tal motivo
                         desarrollamos sistemas integrales para las edificaciones
-                        privadas y públicas; teniendo presente las exigencias y el
-                        ahorro de los clientes. Nuestros objetivo y principios
-                        primordiales es el cuidado y respeto del medio ambiente.
+                        privadas y públicas; teniendo presente las exigencias y 
+                        el veneficio principal para nuestros clientes; el ahorro
+                        se obtiene por la no existencia de recibo de energía eléctrica.
+                        La inversión es recuperada en un corto periodo de tiempo.
                     </p>
                 </div>
                 <div></div>
@@ -38,9 +39,9 @@ export default function About() {
                     <h3 className="uppercase">vision</h3>
                     <div>
                         <p className="text-justify">
-                            Consolidar en el mercado de las edificaciones sea la construcción 
-                            y la comercializacion, el factor climatológico, como nuevo punto
-                            estratégico primordial, para el confort de los habitantes.
+                            Consolidar en el mercado de las edificaciones sea en la construcción 
+                            y la comercialización, el factor climatológico, como nuevo punto
+                            estratégico primordial; para el comfort de los usuarios.
                         </p>
                     </div>
                 </div>
@@ -50,9 +51,9 @@ export default function About() {
                     <div>
                         <p className="text-justify">
                             Ponemos a disposición todo aquello que nos representa como
-                            empresa, comprometidos con nuestros clientes, utilizando como
-                            puente: la sinceridad, credibilidad, responsabilidad, orden,
-                            gentileza y desarrollo humano
+                            empresa, nos comprometemos con nuestros clientes, utilizando los
+                            puentes de: la sinceridad, credibilidad, responsabilidad, orden,
+                            gentileza y desarrollo humano.
                         </p>
                     </div>
                 </div>
