@@ -27,7 +27,7 @@ export default function Footer() {
                                 </div>
                                 <div className="w-full lg:w-1/2 lg:flex lg:px-6 ">
                                     <div className="w-full mb-6 lg:mb-0 lg:w-1/2">
-                                        <h2 className="font-bold text-gray-600 mb-4">
+                                        <h2 className="font-bold text-gray-600 mb-4 text-xl">
                                             Menú</h2>
                                         <ul className="text-gray-500 text-xl">
                                             <li className="pt-1 pb-2">
@@ -48,25 +48,25 @@ export default function Footer() {
                                         </ul>
                                     </div>
                                     <div className="w-full mb-6 lg:mb-0 lg:w-1/2">
-                                        <h2 className="font-bold text-gray-600 mb-4">
+                                        <h2 className="font-bold text-gray-600 mb-4 text-xl">
                                             Redes Sociales</h2>
                                         <ul className="text-gray-500 text-xl">
                                             <li className="pt-1 pb-2">
-                                                <a href="" className="flex space-x-2">
-                                                    <p>Facebook</p>
-                                                    <FontAwesomeIcon className="hover:text-blue-700" icon={faFacebook}/>
+                                                <a href="#" className="flex flex-wrap hover:text-blue-700">
+                                                    <div className="pt-1 pr-3"><p>Facebook</p></div>
+                                                    <div><FontAwesomeIcon icon={faFacebook} size="2x"/></div>
                                                 </a>
                                             </li>
                                             <li className="pt-1 pb-2">
-                                                <a href="">
-                                                    Instagram
-                                                    <FontAwesomeIcon className="hover:text-red-400" icon={faInstagram}/>
+                                                <a href="#" className="flex flex-wrap hover:text-red-400">
+                                                    <div className="pt-1 pr-2.5"><p>Instagram</p></div>
+                                                    <div><FontAwesomeIcon icon={faInstagram} size="2x"/></div>
                                                 </a>
                                             </li>
                                             <li className="pt-1 pb-2">
-                                                <a href="#">
-                                                    Twitter
-                                                    <FontAwesomeIcon className="hover:text-blue-400" icon={faTwitter}/>
+                                                <a href="#" className="flex flex-wrap hover:text-blue-400">
+                                                    <div className="pt-1 pr-8"><p>Twitter</p></div>
+                                                    <div><FontAwesomeIcon icon={faTwitter} size="2x"/></div>
                                                 </a>
                                             </li>
                                         </ul>
@@ -80,11 +80,6 @@ export default function Footer() {
                             </h2>
                             <div className="text-gray-500 mb-8">
                                 Subscribe our weely Newsletter to get regular updates about our blogs.
-                            </div>
-                            <div className="flex">
-                                <input type="text" className="rounded-l px-2 focus:outline-none"/>
-                                <button className="text-gray-200 rounded-r hover:bg-blue-500 px-4 py-2 focus:outline-none"
-                                    >Submit</button>
                             </div>
                         </div>
                     </div>
