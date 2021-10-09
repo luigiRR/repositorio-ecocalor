@@ -1,7 +1,7 @@
 import React from 'react'
 import HeroSlider, { Slide, Nav } from "hero-slider";
 import savepig from '../../assets/Slider/savepig.jpg'
-import innovation from '../../assets/Slider/innovation.jpg'
+import innovation from '../../assets/Slider/innovation2.jpg'
 import respect from '../../assets/Slider/respect.jpg';
 
 
@@ -31,7 +31,7 @@ export default function Slider() {
             >
             <Slide 
                 background={{
-                backgroundImage: savepig,
+                    backgroundImage: savepig,
                 }}
             >
                 <div className="flex justify-center m-0 p-0 w-full h-full align-center">
@@ -43,7 +43,8 @@ export default function Slider() {
 
             <Slide
                 background={{
-                backgroundImage: innovation
+                    top: 5,
+                    backgroundImage: innovation
                 }}
             >
                 <div className="flex justify-center m-0 p-0 w-full h-full align-center">
@@ -54,7 +55,7 @@ export default function Slider() {
 
             <Slide
                 background={{
-                backgroundImage: respect
+                    backgroundImage: respect
                 }}
             >
                 <div className="flex justify-center m-0 p-0 w-full h-full align-center">

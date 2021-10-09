@@ -3,6 +3,7 @@ import Navigation from '../../components/Navigation/Navigation'
 import Slider from '../../components/Hero-Slider/Slider'
 import TitleHead from '../../components/UI/TitleHead/TitleHead'
 import Modals from '../../components/UI/Modal/Modals'
+import Footer from '../../components/Footer/Footer'
 
 export default function Home() {
     return (
@@ -74,6 +75,7 @@ export default function Home() {
                 <div className="text-center">6</div>
                 
             </div>
+            <Footer/>
            
         </div>
     )

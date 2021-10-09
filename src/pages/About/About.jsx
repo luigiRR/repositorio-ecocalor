@@ -2,6 +2,7 @@ import React from 'react'
 import Navigation from '../../components/Navigation/Navigation'
 import Slider from '../../components/Hero-Slider/Slider'
 import TitleHead from '../../components/UI/TitleHead/TitleHead'
+import Footer from '../../components/Footer/Footer'
 
 export default function About() {
     return (
@@ -59,6 +60,8 @@ export default function About() {
                 </div>
                 <div></div>
             </div>
+
+            <Footer/>
         </div>
     )
 }

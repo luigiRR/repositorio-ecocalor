@@ -1,3 +1,4 @@
+import React from 'react';
 import { UseModal } from "../../../Hooks/UseModal";
 import Modal from "./Modal"
 
