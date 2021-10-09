@@ -8,6 +8,7 @@ export default function Blog() {
             <br /><br /><br />
             <div className="container">
                 <h1>hola blogger</h1>
+                <p>Lorem ipsum dolor sit amet.</p>
             </div>
         </div>
     )

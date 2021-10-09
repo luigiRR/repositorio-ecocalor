@@ -13,7 +13,7 @@ export default function Navigation() {
             <div className="flex-shrink-0">
              <Link to="/">
               <img
-                  className="h-36 w-36"
+                  className="h-20 w-30"
                   src={Logo}
                   alt="logo-ecocalor"
               />
