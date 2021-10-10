@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link, NavLink } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFacebook, faInstagram, faInstagramSquare, faTwitter } from '@fortawesome/free-brands-svg-icons'
+import { faFacebook, faInstagram, faInstagramSquare, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons'
 
 export default function Footer() {
     return (
@@ -52,21 +52,27 @@ export default function Footer() {
                                             Redes Sociales</h2>
                                         <ul className="text-gray-50 text-sm">
                                             <li className="pt-1 pb-2">
-                                                <a href="#" className="flex flex-wrap hover:text-blue-700">
+                                                <a href="https://www.facebook.com/Ecocalor-Calefacci%C3%B3n-Y-Ventilaci%C3%B3n-284982982430389/?ref=pages_you_manage" className="flex flex-wrap hover:text-blue-700">
                                                     <div className="pt-1 pr-3"><p>Facebook</p></div>
                                                     <div><FontAwesomeIcon icon={faFacebook} size="2x"/></div>
                                                 </a>
                                             </li>
                                             <li className="pt-1 pb-2">
-                                                <a href="#" className="flex flex-wrap hover:text-red-400">
+                                                <a href="https://www.instagram.com/ecocalorcv/" className="flex flex-wrap hover:text-red-400">
                                                     <div className="pt-1 pr-2.5"><p>Instagram</p></div>
                                                     <div><FontAwesomeIcon icon={faInstagram} size="2x"/></div>
                                                 </a>
                                             </li>
                                             <li className="pt-1 pb-2">
-                                                <a href="#" className="flex flex-wrap hover:text-blue-400">
+                                                <a href="https://twitter.com/EcocalorCV" className="flex flex-wrap hover:text-blue-400">
                                                     <div className="pt-1 pr-8"><p>Twitter</p></div>
                                                     <div><FontAwesomeIcon icon={faTwitter} size="2x"/></div>
+                                                </a>
+                                            </li>
+                                            <li className="pt-1 pb-2">
+                                                <a href="https://www.youtube.com/channel/UCKy5yVeXVXekNkyq5c2jtwg" className="flex flex-wrap hover:text-red-600">
+                                                    <div className="pt-1 pr-3.5"><p>YouTube</p></div>
+                                                    <div><FontAwesomeIcon icon={faYoutube} size="2x"/></div>
                                                 </a>
                                             </li>
                                         </ul>

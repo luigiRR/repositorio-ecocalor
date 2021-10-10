@@ -35,7 +35,7 @@ export default function Slider() {
                 }}
             >
                 <div className="flex justify-center m-0 p-0 w-full h-full align-center">
-                    <h1 className="uppercase m-0 m-auto pt-80 text-right text-5xl w-4/5 text-blue-900 font-bold">
+                    <h1 className="uppercase m-0 m-auto pt-80 text-right text-5xl w-4/5 text-gray-50 font-bold">
                         promover el ahorro de los recursos ecologicos</h1>
                     
                 </div>
@@ -48,7 +48,7 @@ export default function Slider() {
                 }}
             >
                 <div className="flex justify-center m-0 p-0 w-full h-full align-center">
-                    <h1 className="uppercase m-0 m-auto pt-80 text-center text-5xl w-4/5 text-yellow-500 font-bold">
+                    <h1 className="uppercase m-0 m-auto pt-96 text-center text-5xl w-4/5 text-red-500 font-bold">
                         nuevos horizontes energeticos</h1>
                 </div>
             </Slide>
@@ -59,7 +59,7 @@ export default function Slider() {
                 }}
             >
                 <div className="flex justify-center m-0 p-0 w-full h-full align-center">
-                    <h1 className="uppercase m-0 m-auto pt-80 pr-40 text-left text-5xl w-4/5 text-white font-bold">
+                    <h1 className="uppercase m-0 m-auto pt-80 pr-40 text-left text-5xl w-4/5 text-blue-500 font-bold">
                         respeto por el medio ambiente</h1>
                 </div>
             </Slide>

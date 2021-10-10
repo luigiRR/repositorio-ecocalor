@@ -25,7 +25,7 @@ export default function About() {
                 </div>
                 <div></div>
                 <div>
-                    <h3 className="uppercase">mision</h3>
+                    <h3 className="uppercase text-xl text-blue-700 font-bold">mision</h3>
                     <div>
                         <p className="text-justify">
                             Innovación y desarrollo de soluciones energéticas ecológicas,
@@ -37,7 +37,7 @@ export default function About() {
                 </div>
                 <div></div>
                 <div>
-                    <h3 className="uppercase">vision</h3>
+                    <h3 className="uppercase text-xl text-blue-700 font-bold">vision</h3>
                     <div>
                         <p className="text-justify">
                             Consolidar en el mercado de las edificaciones sea en la construcción 
@@ -48,7 +48,7 @@ export default function About() {
                 </div>
                 <div></div>
                 <div>
-                    <h3 className="uppercase">valores</h3>
+                    <h3 className="uppercase text-xl text-blue-700 font-bold">valores</h3>
                     <div>
                         <p className="text-justify">
                             Ponemos a disposición todo aquello que nos representa como

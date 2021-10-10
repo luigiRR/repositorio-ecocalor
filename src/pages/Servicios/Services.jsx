@@ -13,7 +13,7 @@ export default function Services() {
             
             <div className="container grid grid-cols-2 gap-4">
                 <div className="pt-4">
-                    <h3 className="uppercase text-red-700">estudio tecnico de los envolventes</h3>
+                    <h3 className="uppercase text-red-700 font-bold">estudio tecnico de los envolventes</h3>
                     <div>
                         <p className="text-justify">
                             Es la verifica de la resistencia térmica de la susperficie de los envolventes,
@@ -24,7 +24,7 @@ export default function Services() {
                         </p>
                         <br />
                 
-                        <h5 className="uppercase text-red-700">verifica termoigrometrica</h5>
+                        <h5 className="uppercase text-red-700 font-bold">verifica termoigrometrica</h5>
                         <p className="text-justify">
                             El aire que circula las paredes de un edificio contiene una 
                             una cantidad variable de vapor de agua, algunos materiales de
@@ -56,7 +56,7 @@ export default function Services() {
                         </p>
                         <br />
 
-                        <h5 className="text-red-700">
+                        <h5 className="text-red-700 font-bold">
                             VAPOR DIFUSO POR UNIDAD DE SUPERFICIE
                         </h5>
                         <p className="text-justify">
@@ -68,7 +68,7 @@ export default function Services() {
                             difusión o permeabilidad.
                         </p>
                         <br />
-                        <h5 className="text-red-700">PONTE TERMICO Y FLUJO DE CLAOR</h5>
+                        <h5 className="text-red-700 font-bold">PONTE TERMICO Y FLUJO DE CLAOR</h5>
                         <p className="text-justify">
                             Los puentes térmicos, son una discontinuidad de los isolamentos térmicos
                             verificados en la correspondencia de los nudos estructurales;
@@ -84,7 +84,7 @@ export default function Services() {
                 </div>
                 <div></div>
                 <div>
-                    <h3 className="uppercase text-2xl text-blue-700">sistemas de comfort termico</h3>
+                    <h3 className="uppercase text-2xl text-blue-700 font-bold">sistemas de comfort termico</h3>
                     <div className="pt-2">
                         <h5 className="">SEGUN EL CONSUMO DE SERVICIO</h5>
                         <div className="pl-10">
