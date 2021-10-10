@@ -23,35 +23,35 @@ export default function Navigation() {
               <div className="ml-10 flex items-baseline space-x-4">
                 <Link
                   to="/"
-                  className="text-2xl hover:bg-red-400 text-black px-3 py-2 rounded-md text-sm font-medium"
+                  className="text-2xl hover:bg-red-400 text-black px-3 py-2 rounded-md font-medium"
                 >
                   Inicio
                 </Link>
 
                 <Link
                   to="/About"
-                  className="text-2xl text-black hover:bg-red-400 px-3 py-2 rounded-md text-sm font-medium"
+                  className="text-2xl text-black hover:bg-red-400 px-3 py-2 rounded-md font-medium"
                 >
                   Nosotros
                 </Link>
 
                 <Link
                   to="/Services"
-                  className="text-2xl text-black hover:bg-red-400 px-3 py-2 rounded-md text-sm font-medium"
+                  className="text-2xl text-black hover:bg-red-400 px-3 py-2 rounded-md font-medium"
                 >
                   Servicios
                 </Link>
 
                 <Link
                   to="/Blog"
-                  className="text-2xl text-black hover:bg-red-400 px-3 py-2 rounded-md text-sm font-medium"
+                  className="text-2xl text-black hover:bg-red-400 px-3 py-2 rounded-md font-medium"
                 >
                   Blog
                 </Link>
 
                 <Link
                   to="/Contact"
-                  className="text-2xl text-black hover:bg-red-400 px-3 py-2 rounded-md text-sm font-medium"
+                  className="text-2xl text-black hover:bg-red-400 px-3 py-2 rounded-md font-medium"
                 >
                   Contactanos
                 </Link>
