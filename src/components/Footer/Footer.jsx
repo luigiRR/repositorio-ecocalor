@@ -6,14 +6,14 @@ import { faFacebook, faInstagram, faInstagramSquare, faTwitter } from '@fortawes
 export default function Footer() {
     return (
         <div className="bg-cover bg-center">
-            <div className="bg-gray-50">
-                <div className="container mx-auto px-6 lg:px-20 py-12">
+            <div className="bg-gray-700">
+                <div className="container mx-auto px-6 lg:px-20 py-4">
                     <div className="lg:flex">
                         <div className="w-full lg:w-2/3">
                             <div className="lg:flex">
                                 <div className="w-full mb-12 lg:mb-0 lg:w-1/2">
-                                    <h2 className="font-bold text-xl text-gray-600 mb-4">Ecocalor</h2>
-                                    <p className="text-gray-400">
+                                    <h2 className="font-bold text-xl text-gray-50 mb-4">Ecocalor</h2>
+                                    <p className="text-gray-50">
                                         Ecocalor is a site for developer, student and learner,
                                         where they can grab
                                         hundreds of various html component code and try online as fast as posible without...
@@ -27,9 +27,9 @@ export default function Footer() {
                                 </div>
                                 <div className="w-full lg:w-1/2 lg:flex lg:px-6 ">
                                     <div className="w-full mb-6 lg:mb-0 lg:w-1/2">
-                                        <h2 className="font-bold text-gray-600 mb-4 text-xl">
+                                        <h2 className="font-bold text-gray-50 mb-4 text-xl">
                                             Menú</h2>
-                                        <ul className="text-gray-500 text-xl">
+                                        <ul className="text-gray-50 text-sm">
                                             <li className="pt-1 pb-2">
                                                 <Link to="/">Inicio</Link>
                                             </li>
@@ -48,9 +48,9 @@ export default function Footer() {
                                         </ul>
                                     </div>
                                     <div className="w-full mb-6 lg:mb-0 lg:w-1/2">
-                                        <h2 className="font-bold text-gray-600 mb-4 text-xl">
+                                        <h2 className="font-bold text-gray-50 mb-4 text-xl">
                                             Redes Sociales</h2>
-                                        <ul className="text-gray-500 text-xl">
+                                        <ul className="text-gray-50 text-sm">
                                             <li className="pt-1 pb-2">
                                                 <a href="#" className="flex flex-wrap hover:text-blue-700">
                                                     <div className="pt-1 pr-3"><p>Facebook</p></div>
@@ -75,24 +75,13 @@ export default function Footer() {
                             </div>
                         </div>
                         <div className="w-full lg:w-1/3">
-                            <h2 className=" font-bold text-gray-600 mb-4">
-                                Our Newsletter
-                            </h2>
-                            <div className="text-gray-500 mb-8">
-                                Subscribe our weely Newsletter to get regular updates about our blogs.
+                            <div className="flex justify-center text-gray-50 mb-1 -px-2">
+                                © 2021  <span className="font-bold">Ecocalor</span> 2021 todos los derechos reservados.
+                            </div>
+                            <div className="flex font-light justify-center text-gray-50 text-sm">
+                                <p>Designed by <span className="font-bold">Ecocalor</span></p>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div>
-                <div className="container mx-auto px-6 lg:px-20">
-                    <div className="flex justify-center text-gray-600 mb-1">
-                        © 2021  <span className="font-bold">Ecocalor</span> 2021 todos los derechos reservados.
-                    </div>
-                    <div className="flex font-light justify-center text-gray-500 text-sm">
-                        <p>Designed by <span className="font-bold">Ecocalor</span></p>
                     </div>
                 </div>
             </div>
