@@ -13,7 +13,7 @@ export default function Footer() {
                             <div className="lg:flex">
                                 <div className="w-full mb-12 lg:mb-0 lg:w-1/2">
                                     <h2 className="font-bold text-xl text-gray-50 mb-4">Ecocalor</h2>
-                                    <p className="text-gray-50">
+                                    <p className="text-gray-50 text-justify">
                                         Ecocalor is a site for developer, student and learner,
                                         where they can grab
                                         hundreds of various html component code and try online as fast as posible without...
@@ -81,10 +81,17 @@ export default function Footer() {
                             </div>
                         </div>
                         <div className="w-full lg:w-1/3">
-                            <div className="flex justify-center text-gray-50 mb-1 -px-2">
+                            <div className="text-justify text-gray-50 mb-1">
+                                <p>Si envias un e-mail con tus datos personales, que voluntariamente
+                                    decides comunicarnos, estos serán utilizados unicamente para responder
+                                    tu mensaje.
+                                    No cumincaremos tús datos a terceros
+                                </p>
+                            </div>
+                            <div className="justify-center text-gray-50 mb-1 mt-6">
                                 © 2021  <span className="font-bold">Ecocalor</span> 2021 todos los derechos reservados.
                             </div>
-                            <div className="flex font-light justify-center text-gray-50 text-sm">
+                            <div className="font-light justify-center text-gray-50 text-sm">
                                 <p>Designed by <span className="font-bold">Ecocalor</span></p>
                             </div>
                         </div>
