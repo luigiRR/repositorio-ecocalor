@@ -12,9 +12,9 @@ export default function Footer() {
                         <div className="w-full lg:w-2/3">
                             <div className="lg:flex">
                                 <div className="w-full mb-12 lg:mb-0 lg:w-1/2">
-                                    <h2 className="font-bold text-xl text-gray-50 mb-4">Ecocalor</h2>
+                                    <h2 className="font-bold text-xl text-gray-50 mb-4">SOL DE MIMMI</h2>
                                     <p className="text-gray-50 text-justify">
-                                        Ecocalor is a site for developer, student and learner,
+                                        SOL DE MIMMI is a site for developer, student and learner,
                                         where they can grab
                                         hundreds of various html component code and try online as fast as posible without...
                                     </p>
@@ -39,9 +39,9 @@ export default function Footer() {
                                             <li className="pt-1 pb-2">
                                                 <Link to="/Services">Servicios</Link>
                                             </li>
-                                            <li className="pt-1 pb-2">
+                                            {/* <li className="pt-1 pb-2">
                                                 <Link to="/Blog">Blog</Link>
-                                            </li>
+                                            </li> */}
                                             <li className="pt-1 pb-2">
                                                 <Link to="/Contact">Contactnos</Link>
                                             </li>

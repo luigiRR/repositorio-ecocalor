@@ -24,28 +24,28 @@ export default function Services() {
                         </p>
                         <br />
                 
-                        <h5 className="uppercase text-red-700 font-bold">verifica termoigrometrica</h5>
+                        <h5 className="uppercase text-red-700 font-bold">verifica Glasser</h5>
                         <p className="text-justify">
-                            El aire que circula las paredes de un edificio contiene una 
-                            una cantidad variable de vapor de agua, algunos materiales de
+                            El aire que circula al interior de las paredes de un edificio contiene una cantidad variable de vapor de agua, 
+                            algunos materiales de
                             construcción tienen una alta afinidad con el agua al estado liquido
-                            o de vapor, por lo tanto los materilaes modifican su comportanmiento
-                            de tal forma que alteran su servicios en durabilidad, resistencia estructurale,
-                            y resistencia térmica. El agua en los poros de los diversos materilaes de costrucciones
+                            o vapor, por lo tanto los materilaes modifican su comportanmiento
+                            de tal forma que alteran su servicios en durabilidad, resistencia estructural,
+                            y resistencia térmica. El agua en los poros de los diversos materilaes de costruccion
                             pueden modificar el comportamiento térmico de una pared, porque aumentará el flujo
                             térmico por conducción.
-                            El procedimiento para el calculo de verífica termoigrometrica de una 
-                            estructura: MODAL 
-                            -definición de la condicion al contorno (temperatura interna, humedad relativa interna,
-                            temperatura extera y humedad relativa externa).
-                            -definición de las caracteristicas de los materilaes que constituyen la pared (espesor, 
-                            conductividad, permiabilidad al paso del vapor).
-                            -calculo de la transmitanza.
-                            -calculo de la termperatura de la superficie interna.
-                            A través del diagrama de GLASSER se verifica las causas de
-                            formación de condensación en las envolventes. Estas podrán ser
-                            identificadas por :
+                            El procedimiento para el calculo de verífica con el diagrama Glasser de una 
+                            envolvente: 
                         </p>
+                        <p className="text-justify">-definición de la condicion al contorno (temperatura interna, humedad relativa interna,
+                            temperatura externa y humedad relativa externa).</p>
+                        <p className="text-justify">-definición de las caracteristicas de los materilaes que constituyen la envolvente (espesor, 
+                            conductividad, permiabilidad al paso del vapor).</p>
+                        <p className="text-justify">-calculo de la transmitanza.</p>
+                        <p >-calculo de la termperatura de la superficie interna.
+                            Con el calculo de la transmitancia (Diagrama de Glasser) se verifica la causa de
+                            formación de condensación en las envolventes. Estas podrán ser
+                            identificadas por :</p>
                         <p className="text-justify">
                             -un elevado nivel de humedad relativa del aire interno del
                             ambiente de la edificación
@@ -60,7 +60,7 @@ export default function Services() {
                             VAPOR DIFUSO POR UNIDAD DE SUPERFICIE
                         </h5>
                         <p className="text-justify">
-                            La ley de FICK. explica que la portada de masa de vapor, que
+                            La ley de FICK. explica la portada de masa de vapor, que
                             atraviesa un material poroso, en una sola dirección, es
                             proporcional a la diferencia de presión parcial y al área de
                             la superficie, en la dirección normal a esa considerada, por
@@ -68,23 +68,52 @@ export default function Services() {
                             difusión o permeabilidad.
                         </p>
                         <br />
-                        <h5 className="text-red-700 font-bold">PONTE TERMICO Y FLUJO DE CLAOR</h5>
+
+                        <h5 className="text-red-700 font-bold">
+                            VERIFICA TERMOHIDROMEICA
+                        </h5>
+                        <h4>Puentes Termicos</h4>
                         <p className="text-justify">
-                            Los puentes térmicos, son una discontinuidad de los isolamentos térmicos
-                            verificados en la correspondencia de los nudos estructurales;
-                            estan situados en las zonas formadas por
+                            Es una area determinada al interior de la edificación; sobre las superficie de las envolventes afectadas se localiza 
+                            el mayor flujo de calor.
+                            Verificandose los siguientes fenómenos:
+                        </p>
+                        <p className="text-justify">-Condensacion sobre la superficie</p>
+                        <p className="text-justify">-Formación de mogo y algas</p>
+                        <p className="text-justify">-Disminucion del confort térmico</p>
+                        <p className="text-justify">-Daños a la superficie</p>
+                        <br/>
+                        <h5 className="text-red-700 font-bold">ANALISIS TERMOGRAFICO</h5>
+                        <p className="text-justify">
+                            El analisis termografico se realiza utilizando la termocamara la cual cacta la 
+                            radiación del campo infrarojo y cumple medidas relacionadas con la emision de radiación,
+                            este instrumento es en grado de cactar la temperatura de los cuerpos a travez de la medicion
+                            de la intensidad de radiacion infraroja que emite el cuerpo en examen.
+                            Todos los objetos a un temperatura superior al 0 absoluto emiten radiacion en el campo del infrarojo.
+                            La termografia permite individuar las anomalias en la emision de la enegía de los 
+                            cuerpos en análisis y por lo tanto determina la emisimidad de las anomalias térmicas. 
+                            Los puentes térmicos, son una discontinuidad de la dispocision geometrica, unión de materiales de caracteristicas 
+                            termicas diversas, y falta de isolamentos sobre las envolventes.
+                            Estan situados en las zonas formadas por
                             ángulos, (0◦ a 360◦) de cualquier elemento construcctivo del
                             edificio, por ejemplo, en los nudos entre losas aligeradas y
                             las paredes, o entre columnas y las paredes, encuentros entre
-                            pisos y paredes. El flujo de calor es una forma de energía que
-                            se transfiere entre dos sistemas, esta puede ser mediante
-                            conducción, convección y radiación.
+                            pisos y paredes.
                         </p>
                     </div>
                 </div>
-                <div></div>
                 <div>
-                    <h3 className="uppercase text-2xl text-blue-700 font-bold">sistemas de comfort termico</h3>
+                    <div className="mt-5 ml-16 ">
+                        <img className='w-80 service' src='https://firebasestorage.googleapis.com/v0/b/supporttickets-cb452.appspot.com/o/ecocalor%2FImagen%20de%20WhatsApp%202024-08-31%20a%20las%2011.00.03_e83ce1bf.jpg?alt=media&token=ea5557e9-ecdb-4801-a436-c7220dd46fff'/>
+                    </div>
+                    <div className="mt-5 ml-16 ">
+                        <img className='w-80 service' src='https://firebasestorage.googleapis.com/v0/b/supporttickets-cb452.appspot.com/o/ecocalor%2FImagen%20de%20WhatsApp%202024-08-31%20a%20las%2011.00.02_7dcc1f18.jpg?alt=media&token=b61cd637-4974-41df-8f0f-56d10a954064'/>
+                    </div>
+                </div>
+                <div>
+                    {/* DROPDOWN */}
+                    <h3 className="uppercase text-2xl text-blue-700 font-bold">sistemas de calefaccion</h3> 
+                    <span>BOTON PARA DESCARGAR DOC WORD</span>
                     <div className="pt-2">
                         <h5 className="">SEGUN EL CONSUMO DE SERVICIO</h5>
                         <div className="pl-10">
@@ -127,7 +156,6 @@ export default function Services() {
                         </div>
                         <br />
                         <p className="estado">VENTILACIÓN</p>
-                        
                         <div className="pl-10">
                             <li>
                                 <strong>Ventilación y deshumedecimiento:</strong> La humedad
@@ -152,7 +180,14 @@ export default function Services() {
                         </p>
                     </div>
                 </div>
-               
+                <div>
+                    <div className="mt-5 ml-16">
+                        <img className='w-80 service1' src='https://firebasestorage.googleapis.com/v0/b/supporttickets-cb452.appspot.com/o/ecocalor%2FImagen%20de%20WhatsApp%202024-08-31%20a%20las%2011.00.02_44d9ace4.jpg?alt=media&token=13bab4b0-0a68-4fed-ac1d-ccc53019dc8c'/>
+                    </div>
+                    <div className="mt-5 ml-16">
+                        <img className='w-80 service1' src='https://firebasestorage.googleapis.com/v0/b/supporttickets-cb452.appspot.com/o/ecocalor%2FImagen%20de%20WhatsApp%202024-08-31%20a%20las%2010.55.50_abc2537f.jpg?alt=media&token=0c054931-1402-475d-8cd4-8d3570650112'/>
+                    </div>
+                </div>
             </div>
         
             <Footer></Footer>

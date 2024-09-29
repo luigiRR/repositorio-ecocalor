@@ -14,16 +14,16 @@ function App() {
         <Route exact path="/">
           <Home/>
         </Route>
-        <Route exact path="/About">
+        <Route exact path="/about">
           <About/>
         </Route>
-        <Route exact path="/Services">
+        <Route exact path="/services">
           <Services/>
         </Route>
-        <Route exact path="/Blog">
+        <Route exact path="/blog">
           <Blog/>
         </Route>
-        <Route exact path="/Contact">
+        <Route exact path="/contact">
           <Contact/>
         </Route>
         <Route component={Notfound}/>

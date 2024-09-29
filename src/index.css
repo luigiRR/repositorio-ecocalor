@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.service{
+    width: 40rem;
+}
+.service1{
+    width: 30rem;
+}
