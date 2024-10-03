@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 // Importa tu logo aquí si lo necesitas
-// import Logo from '../../assets/Navbar/sol.png';
+import Logo from '../../assets/Navbar/sol.png';
 
 export default function Navigation() {
   const [isOpen, setIsOpen] = useState(false);
@@ -68,7 +68,7 @@ export default function Navigation() {
           <div style={{ flexShrink: 0 }}>
             <Link to="/">
               {/* Agrega aquí el logo si lo necesitas */}
-              {/* <img style={logoStyle} src={Logo} alt="logo-ecocalor" /> */}
+              <img style={logoStyle} src={Logo} alt="logo-ecocalor" /> 
             </Link>
           </div>
           <div style={{ flexGrow: 1, display: 'flex', justifyContent: 'flex-end' }}>
