@@ -5,7 +5,7 @@ import Navigation from '../../components/Navigation/Navigation'
 export default function Notfound() {
     return (
         <div>
-            <Navigation/>
+            {/* <Navigation/> */}
             <br />
             <br />
             <br />

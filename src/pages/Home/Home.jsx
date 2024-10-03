@@ -8,7 +8,7 @@ import Footer from '../../components/Footer/Footer'
 export default function Home() {
     return (
         <div className="">
-            <Navigation/>
+            {/* <Navigation/> */}
             <Slider/>
             <TitleHead>desarrollamos sistemas orientados a la eficiencia de la energia termica</TitleHead>
             <div className="container grid grid-cols-2 gap-4">

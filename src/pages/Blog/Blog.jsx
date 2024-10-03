@@ -4,7 +4,7 @@ import Navigation from '../../components/Navigation/Navigation'
 export default function Blog() {
     return (
         <div>
-            <Navigation/>
+            {/* <Navigation/> */}
             <br /><br /><br />
             <div className="container">
                 <h1>hola blogger</h1>

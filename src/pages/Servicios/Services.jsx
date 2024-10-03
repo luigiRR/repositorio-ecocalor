@@ -7,7 +7,7 @@ import TitleHead from '../../components/UI/TitleHead/TitleHead'
 export default function Services() {
     return (
         <div>
-            <Navigation/>
+            {/* <Navigation/> */}
             <Slider/>
             <TitleHead>analizamos las necesidades energeticas termicas de las edificcaciones otorgando soluciones personalizadas</TitleHead>
             
