@@ -1,5 +1,5 @@
 import React from 'react'
-// import Navigation from '../../components/Navigation/Navigation'
+import Navigation from '../../components/Navigation/Navigation'
 import Slider from '../../components/Hero-Slider/Slider'
 import TitleHead from '../../components/UI/TitleHead/TitleHead'
 import Modals from '../../components/UI/Modal/Modals'
@@ -8,7 +8,7 @@ import Footer from '../../components/Footer/Footer'
 export default function Home() {
     return (
         <div className="">
-            {/* <Navigation/> */}
+            <Navigation/>
             <Slider/>
             <TitleHead>desarrollamos sistemas orientados a la eficiencia de la energia termica</TitleHead>
             <div className="container grid grid-cols-2 gap-4">
