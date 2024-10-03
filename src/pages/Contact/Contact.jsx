@@ -10,10 +10,7 @@ export default function Contact() {
             <div className="container mx-auto shadow">
                 <div className="flex justify-center px-6 my-12">
                     <div className="w-full xl:w-3/4 lg:w-11/12 flex">
-                        <div 
-                            className="w-full h-5/6 bg-gray-400 hidden lg:block lg:w-5/12 bg-cover rounded-l-lg"
-                            style={{backgroundImage: "url(" + "https://images.unsplash.com/photo-1470137237906-d8a4f71e1966?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8aW5ub3ZhdGlvbiUyMHdhdGVyfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" + ")"}}
-                        ></div>
+                        <div  className="w-full h-5/6 bg-gray-400 hidden lg:block lg:w-5/12 bg-cover rounded-l-lg contact_image"></div>
 
                         <div className="w-full lg:w-7/12 bg-white p-5 rounded-lg lg:rounded-l-none">
 						<h3 className="pt-4 text-2xl text-center text-blue-500">Solicita orientación!</h3>
