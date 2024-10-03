@@ -8,4 +8,9 @@ module.exports = {
         ],
       },
     },
+    webpack: {
+      optimization: {
+        minimize: false, // Desactiva la minificación temporalmente
+      },
+    },
   }
