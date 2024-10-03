@@ -1,6 +1,6 @@
 import React from 'react'
 import nothing from '../../assets/img/24.png'
-import Navigation from '../../components/Navigation/Navigation'
+// import Navigation from '../../components/Navigation/Navigation'
 
 export default function Notfound() {
     return (

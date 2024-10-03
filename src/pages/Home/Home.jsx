@@ -1,5 +1,5 @@
 import React from 'react'
-import Navigation from '../../components/Navigation/Navigation'
+// import Navigation from '../../components/Navigation/Navigation'
 import Slider from '../../components/Hero-Slider/Slider'
 import TitleHead from '../../components/UI/TitleHead/TitleHead'
 import Modals from '../../components/UI/Modal/Modals'
