@@ -1,5 +1,5 @@
 import React from 'react'
-// import Navigation from '../../components/Navigation/Navigation'
+import Navigation from '../../components/Navigation/Navigation'
 import Slider from '../../components/Hero-Slider/Slider'
 import TitleHead from '../../components/UI/TitleHead/TitleHead'
 import Footer from '../../components/Footer/Footer'
@@ -7,7 +7,7 @@ import Footer from '../../components/Footer/Footer'
 export default function About() {
     return (
         <div>
-            {/* <Navigation/> */}
+            <Navigation/>
             <Slider/>
             <TitleHead>realizamos progresos para el desarrollo del comfort termico de calidad</TitleHead>
 

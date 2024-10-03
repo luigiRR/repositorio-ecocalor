@@ -18,7 +18,7 @@ export default function Navigation() {
   };
 
   const logoStyle = {
-    height: '60px', // Ajusta la altura de tu logo
+    height: '90px', // Ajusta la altura de tu logo
     width: 'auto',
   };
 

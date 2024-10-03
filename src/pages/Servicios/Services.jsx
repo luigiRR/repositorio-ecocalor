@@ -1,13 +1,13 @@
 import React from 'react'
 import Footer from '../../components/Footer/Footer'
 import Slider from '../../components/Hero-Slider/Slider'
-// import Navigation from '../../components/Navigation/Navigation'
+import Navigation from '../../components/Navigation/Navigation'
 import TitleHead from '../../components/UI/TitleHead/TitleHead'
 
 export default function Services() {
     return (
         <div>
-            {/* <Navigation/> */}
+            <Navigation/>
             <Slider/>
             <TitleHead>analizamos las necesidades energeticas termicas de las edificcaciones otorgando soluciones personalizadas</TitleHead>
             

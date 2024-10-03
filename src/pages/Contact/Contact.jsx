@@ -1,10 +1,10 @@
 import React from 'react'
-// import Navigation from '../../components/Navigation/Navigation'
+import Navigation from '../../components/Navigation/Navigation'
 
 export default function Contact() {
     return (
         <div>
-            {/* <Navigation/> */}
+            <Navigation/>
             <br /><br /><br />
 
             <div className="container mx-auto shadow">
