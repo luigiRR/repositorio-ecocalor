@@ -32,7 +32,7 @@ export default function Home() {
                 </div>
                 <div>
                     <div className="mt-5 ml-10">
-                        <img alt="decorative" src="https://firebasestorage.googleapis.com/v0/b/supporttickets-cb452.appspot.com/o/ecocalor%2Fmiraflores.jpg?alt=media&token=8124b70d-87cd-44de-ace9-851fa1a7fea1"></img>
+                        <img className='object-cover rounded-lg shadow-md' alt="decorative" src="https://firebasestorage.googleapis.com/v0/b/supporttickets-cb452.appspot.com/o/ecocalor%2Fmiraflores.jpg?alt=media&token=8124b70d-87cd-44de-ace9-851fa1a7fea1"></img>
                     </div>
                 </div>
 
@@ -53,7 +53,7 @@ export default function Home() {
                 </div>
                 <div className="text-center">
                     <div className="mt-5 ml-10">
-                        <img alt="decorative" src='https://firebasestorage.googleapis.com/v0/b/supporttickets-cb452.appspot.com/o/ecocalor%2Fse%C3%B1ora.jpg?alt=media&token=75329952-13ec-4aaf-ad28-5cf896b604a3' />
+                        <img className='object-cover rounded-lg shadow-md' alt="decorative" src='https://firebasestorage.googleapis.com/v0/b/supporttickets-cb452.appspot.com/o/ecocalor%2Fse%C3%B1ora.jpg?alt=media&token=75329952-13ec-4aaf-ad28-5cf896b604a3' />
                     </div>
                 </div>
 
