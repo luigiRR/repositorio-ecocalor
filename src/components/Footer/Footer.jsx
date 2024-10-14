@@ -89,10 +89,10 @@ export default function Footer() {
                                 </p>
                             </div>
                             <div className="justify-center text-gray-50 mb-1 mt-6">
-                                © 2021  <span className="font-bold">Ecocalor</span> 2021 todos los derechos reservados.
+                                © 2021  <span className="font-bold">SOL DE MIMMI</span> 2021 todos los derechos reservados.
                             </div>
                             <div className="font-light justify-center text-gray-50 text-sm">
-                                <p>Designed by <span className="font-bold">Ecocalor</span></p>
+                                <p>Designed by <span className="font-bold">SOL DE MIMMI</span></p>
                             </div>
                         </div>
                     </div>
