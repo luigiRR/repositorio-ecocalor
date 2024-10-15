@@ -63,28 +63,28 @@ export default function About() {
                 <div className='images-about mb-8 mt-5 flex justify-center space-x-4'>
                     <div>
                         <img
-                            className='h-64 w-80 object-cover rounded-lg shadow-md'
+                            className='h-64 w-85 object-cover rounded-lg shadow-md'
                             alt="decorative"
                             src='https://firebasestorage.googleapis.com/v0/b/supporttickets-cb452.appspot.com/o/ecocalor%2FImagen%20de%20WhatsApp%202024-08-31%20a%20las%2010.55.49_388b138c.jpg?alt=media&token=e229e8d4-2888-4c41-95f7-5ec0288b3602'
                         />
                     </div>
-                    <div>
+                    {/*<div>
                         <img
                             className='h-64 w-80 object-cover rounded-lg shadow-md'
                             alt="decorative"
                             src='https://firebasestorage.googleapis.com/v0/b/supporttickets-cb452.appspot.com/o/ecocalor%2FImagen%20de%20WhatsApp%202024-08-31%20a%20las%2010.55.50_abc2537f.jpg?alt=media&token=0c054931-1402-475d-8cd4-8d3570650112'
                         />
-                    </div>
+                    </div>*/}
                     <div>
                         <img
-                            className='h-64 w-80 object-cover rounded-lg shadow-md'
+                            className='h-64 w-85 object-cover rounded-lg shadow-md'
                             alt="decorative"
                             src='https://firebasestorage.googleapis.com/v0/b/supporttickets-cb452.appspot.com/o/ecocalor%2FImagen%20de%20WhatsApp%202024-08-31%20a%20las%2010.55.49_9ca824c5.jpg?alt=media&token=3692210c-58f6-425c-9203-9e04d279a32e'
                         />
                     </div>
                     <div>
                         <img
-                            className='h-64 w-80 object-cover rounded-lg shadow-md'
+                            className='h-64 w-85 object-cover rounded-lg shadow-md'
                             alt="decorative"
                             src='https://firebasestorage.googleapis.com/v0/b/supporttickets-cb452.appspot.com/o/ecocalor%2FImagen%20de%20WhatsApp%202024-08-31%20a%20las%2010.55.51_5797e63c.jpg?alt=media&token=5ae7cf32-62c4-4a0d-aa27-6bcab97d86b3'
                         />

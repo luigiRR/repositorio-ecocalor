@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFacebook, faInstagram, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons'
+import { faFacebook, faInstagram, faTwitter, faYoutube, faTiktok } from '@fortawesome/free-brands-svg-icons'
 
 export default function Footer() {
     return (
@@ -73,6 +73,12 @@ export default function Footer() {
                                                 <a href="https://www.youtube.com/channel/UCKy5yVeXVXekNkyq5c2jtwg" className="flex flex-wrap hover:text-red-600">
                                                     <div className="pt-1 pr-3.5"><p>YouTube</p></div>
                                                     <div><FontAwesomeIcon icon={faYoutube} size="2x"/></div>
+                                                </a>
+                                            </li>
+                                            <li className="pt-1 pb-2">
+                                                <a href="" className="flex flex-wrap hover:text-pink-500">
+                                                    <div className="pt-1 pr-8"><p>TikTok</p></div>
+                                                    <div><FontAwesomeIcon icon={faTiktok} size="2x"/></div>
                                                 </a>
                                             </li>
                                         </ul>

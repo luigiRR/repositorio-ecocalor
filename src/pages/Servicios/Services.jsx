@@ -70,7 +70,7 @@ export default function Services() {
                         <br />
 
                         <h5 className="text-red-700 font-bold">
-                            VERIFICA TERMOHIDROMEICA
+                            VERIFICA TERMOHIDROMETICA
                         </h5>
                         <h4>Puentes Termicos</h4>
                         <p className="text-justify">

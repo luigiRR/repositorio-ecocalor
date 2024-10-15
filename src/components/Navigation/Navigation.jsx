@@ -25,7 +25,7 @@ export default function Navigation() {
   }, []);
 
   const navStyle = {
-    backgroundColor: isScrolled ? 'rgba(249, 250, 251, 0.9)' : 'transparent',
+    backgroundColor: '#0ac0dd', //isScrolled ? 'rgba(249, 250, 251, 0.9)' : 'transparent',
     position: 'fixed',
     top: 0,
     left: 0,
