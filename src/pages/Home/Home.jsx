@@ -88,11 +88,11 @@ export default function Home() {
                             del fluido al interno de las tuberias.
                             El incremento de temperatura del fluido vector es transmitido a los
                             ambientes requeridos por medio de los escambiadores de calor,
-                            por medio de la convección y radiación.
+                            utilizando la convección y radiación para transferir calor.
                             Nuestro sistema de instalación térmica, se integra
                             perfectamente con las envolventes de la edificación; otorgando
-                            como resultado el comfort térmico deseado, la temperatura comprendida 
-                            entre 20°C y 25°C con una humedad relativa entre 40% y 60%; son los
+                            como resultado el comfort térmico deseado, con temperaturas comprendidas 
+                            entre 20°C y 25°C con una humedad relativa entre 40% y 60%; siendo estos los
                             parametros para un correcto ambiente comfortable, según el organismo internacional ASHRAE.
                         </p>
                     </div>
@@ -104,6 +104,11 @@ export default function Home() {
                     >
                         {downloading ? 'Descargando...' : 'Descargar archivo Word'}
                     </button>
+                    </div>
+                </div>
+                <div>
+                    <div className="mt-5 ml-10">
+                        <img className='object-cover rounded-lg shadow-md instalation' alt="decorative" src="https://firebasestorage.googleapis.com/v0/b/supporttickets-cb452.appspot.com/o/ecocalor%2FinstalacionTermica.jpg?alt=media&token=ceb27a0e-c49c-4089-87f6-2f0c7f105d3b"></img>
                     </div>
                 </div>
                 {/* <div className="text-center">6</div> */}
