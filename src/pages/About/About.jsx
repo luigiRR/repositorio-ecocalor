@@ -18,10 +18,9 @@ export default function About() {
                         ambientales y climáticos en nuestro territorio, por tal motivo
                         desarrollamos sistemas integrales para las edificaciones
                         privadas y públicas; teniendo presente las exigencias y 
-                        el veneficio principal para nuestros clientes; el ahorro
+                        el beneficio principal de nuestros clientes; el ahorro
                         se obtiene por la no creación de un recibo de energía eléctrica,
                         siendo la inversion recuperada en un corto periodo de tiempo.
-                        La inversión es recuperada en un corto periodo de tiempo.
                     </p>
                 </div>
                 

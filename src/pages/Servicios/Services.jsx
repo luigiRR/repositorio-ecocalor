@@ -20,7 +20,7 @@ export default function Services() {
                             así como de sus componentes moleculares las culaes avitan el flujo de calor del ambiente 
                             interno al externo; 
                             para lo cual se realiza un estudio de la transmitanza, conductividad 
-                            y conductancia de cada uno de los elemtos que conforman los envolventes de la edificación.
+                            y conductancia de cada uno de los elementos que conforman los envolventes de la edificación.
                         </p>
                         <br />
                 
@@ -31,7 +31,7 @@ export default function Services() {
                             construcción tienen una alta afinidad con el agua al estado liquido
                             o vapor, por lo tanto los materilaes modifican su comportanmiento
                             de tal forma que alteran su servicios en durabilidad, resistencia estructural,
-                            y resistencia térmica. El agua en los poros de los diversos materilaes de costruccion
+                            y resistencia térmica. El agua en los poros de los diversos materiales de costruccion
                             pueden modificar el comportamiento térmico de una pared, porque aumentará el flujo
                             térmico por conducción.
                             El procedimiento para el calculo de verífica con el diagrama Glasser de una 
@@ -80,18 +80,18 @@ export default function Services() {
                         </p>
                         <p className="text-justify">-Condensacion sobre la superficie</p>
                         <p className="text-justify">-Formación de mogo y algas</p>
-                        <p className="text-justify">-Disminucion del confort térmico</p>
+                        <p className="text-justify">-Disminucion del comfort térmico</p>
                         <p className="text-justify">-Daños a la superficie</p>
                         <br/>
                         <h5 className="text-red-700 font-bold">ANALISIS TERMOGRAFICO</h5>
                         <p className="text-justify">
-                            El analisis termografico se realiza utilizando la termocamara la cual cacta la 
+                            El analisis termografico se realiza utilizando la termocamara la cual capta la 
                             radiación del campo infrarojo y cumple medidas relacionadas con la emision de radiación,
-                            este instrumento es en grado de cactar la temperatura de los cuerpos a travez de la medicion
+                            este instrumento es en grado de captar la temperatura de los cuerpos a travez de la medicion
                             de la intensidad de radiacion infraroja que emite el cuerpo en examen.
                             Todos los objetos a un temperatura superior al 0 absoluto emiten radiacion en el campo del infrarojo.
                             La termografia permite individuar las anomalias en la emision de la enegía de los 
-                            cuerpos en análisis y por lo tanto determina la emisimidad de las anomalias térmicas. 
+                            cuerpos en análisis y por lo tanto determina la emisividad de las anomalias térmicas. 
                             Los puentes térmicos, son una discontinuidad de la dispocision geometrica, unión de materiales de caracteristicas 
                             termicas diversas, y falta de isolamentos sobre las envolventes.
                             Estan situados en las zonas formadas por
