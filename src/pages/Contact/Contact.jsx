@@ -10,7 +10,7 @@ export default function Contact() {
             <div className="container mx-auto shadow">
                 <div className="flex justify-center px-6 my-12">
                     <div className="w-full xl:w-3/4 lg:w-11/12 flex">
-                        {/*<div  className="w-full h-5/6 bg-gray-400 hidden lg:block lg:w-5/12 bg-cover rounded-l-lg contact_image"></div>*/}
+                        <div  className="w-full h-5/6 bg-gray-400 hidden lg:block lg:w-5/12 bg-cover rounded-l-lg contact_image"></div>
 
                         <div className="w-full lg:w-7/12 bg-white p-5 rounded-lg lg:rounded-l-none">
 						<h3 className="pt-4 text-2xl text-center text-blue-500">Solicita orientación!</h3>

@@ -34,6 +34,9 @@ export default function Footer() {
                                                 <Link to="/">Inicio</Link>
                                             </li>
                                             <li className="pt-1 pb-2">
+                                                <Link to="/Doc">Documentos</Link>
+                                            </li>
+                                            <li className="pt-1 pb-2">
                                                 <Link to="/About">Nosotros</Link>
                                             </li>
                                             <li className="pt-1 pb-2">

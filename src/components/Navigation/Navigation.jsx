@@ -77,9 +77,10 @@ export default function Navigation() {
   // Mapeo de rutas en inglés con textos en español
   const menuItems = [
     { path: '/', label: 'Inicio' },
+    { path: '/doc', label: 'Documentos' }, 
     { path: '/services', label: 'Servicios' },
     { path: '/about', label: 'Nosotros' },
-    { path: '/contact', label: 'Contáctanos' },
+    { path: '/contact', label: 'Contáctanos' }, 
   ];
 
   const logoStyle = {

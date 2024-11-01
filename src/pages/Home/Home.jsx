@@ -96,15 +96,15 @@ export default function Home() {
                             parametros para un correcto ambiente comfortable, según el organismo internacional ASHRAE.
                         </p>
                     </div>
-                    <div className="text-center">
-                    <button 
-                        onClick={handleDownload}
-                        className="mt-5 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
-                        disabled={downloading}
-                    >
-                        {downloading ? 'Descargando...' : 'Descargar archivo Word'}
-                    </button>
-                    </div>
+                    {/* <div className="text-center">
+                        <button 
+                            onClick={handleDownload}
+                            className="mt-5 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                            disabled={downloading}
+                        >
+                            {downloading ? 'Descargando...' : 'Descargar archivo Word'}
+                        </button>
+                    </div> */}
                 </div>
                 <div>
                     <div className="mt-5 ml-10">

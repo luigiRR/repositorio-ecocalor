@@ -109,6 +109,9 @@ export default function Services() {
                     <div className="mt-5 ml-16 ">
                         <img className='w-80 service object-cover rounded-lg shadow-md' alt="decorative" src='https://firebasestorage.googleapis.com/v0/b/supporttickets-cb452.appspot.com/o/ecocalor%2FImagen%20de%20WhatsApp%202024-08-31%20a%20las%2011.00.02_7dcc1f18.jpg?alt=media&token=b61cd637-4974-41df-8f0f-56d10a954064'/>
                     </div>
+                    <div className="mt-5 ml-16 ">
+                        <img className='w-80 service object-cover rounded-lg shadow-md' alt="decorative" src='https://firebasestorage.googleapis.com/v0/b/supporttickets-cb452.appspot.com/o/ecocalor%2Fdiagrama.jpg?alt=media&token=3ca3ff86-bf3a-460d-b756-e4166f1ff1b2'/>
+                    </div>
                 </div>
                 <div>
                     {/* DROPDOWN */}
