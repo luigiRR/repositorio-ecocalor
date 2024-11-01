@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import Navigation from '../../components/Navigation/Navigation'
 import Slider from '../../components/Hero-Slider/Slider'
 import TitleHead from '../../components/UI/TitleHead/TitleHead'
@@ -6,23 +6,6 @@ import Modals from '../../components/UI/Modal/Modals'
 import Footer from '../../components/Footer/Footer'
 
 export default function Home() {
-
-    const [downloading, setDownloading] = useState(false);
-    const fileId = '1F3S71SHQdc1VAmeBRh7Aj0BXP-Jy14sW';
-    const downloadLink = `https://drive.google.com/uc?export=download&id=${fileId}`;
-
-    const handleDownload = () => {
-        setDownloading(true);
-        const link = document.createElement('a');
-        link.href = downloadLink;
-        link.download = 'archivo.docx';
-        document.body.appendChild(link);
-        link.click();
-        document.body.removeChild(link);
-        setTimeout(() => {
-            setDownloading(false);
-        }, 3000);
-    };
 
     return (
         <div className="">
@@ -96,15 +79,6 @@ export default function Home() {
                             parametros para un correcto ambiente comfortable, según el organismo internacional ASHRAE.
                         </p>
                     </div>
-                    {/* <div className="text-center">
-                        <button 
-                            onClick={handleDownload}
-                            className="mt-5 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
-                            disabled={downloading}
-                        >
-                            {downloading ? 'Descargando...' : 'Descargar archivo Word'}
-                        </button>
-                    </div> */}
                 </div>
                 <div>
                     <div className="mt-5 ml-10">
