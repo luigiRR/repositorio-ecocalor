@@ -42,7 +42,7 @@ export default function About() {
                         <p className="text-justify">
                             Consolidar en el mercado de las edificaciones sea en la construcción 
                             y la comercialización, el factor climatológico, como nuevo punto
-                            estratégico primordial; para el confort de los usuarios.
+                            estratégico primordial; para el comfort de los usuarios.
                         </p>
                     </div>
                 </div>
