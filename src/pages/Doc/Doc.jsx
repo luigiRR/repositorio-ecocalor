@@ -46,7 +46,7 @@ export default function About() {
             <div className="container mx-auto py-8">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
                     <div className="text-center">
-                        <h3 className="uppercase text-2xl text-blue-700 font-bold mb-5">Diagrama Isotermia</h3>
+                        <h3 className="uppercase text-2xl text-blue-700 font-bold mb-5">Diagrama de las Isotermias</h3>
                         <img
                             className="h-85 w-full object-cover rounded-lg shadow-md"
                             alt="Diagrama de Isoterma"
