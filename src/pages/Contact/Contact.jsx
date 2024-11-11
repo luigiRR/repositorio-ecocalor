@@ -13,7 +13,7 @@ export default function Contact() {
                         <div  className="w-full h-5/6 bg-gray-400 hidden lg:block lg:w-5/12 bg-cover rounded-l-lg contact_image"></div>
 
                         <div className="w-full lg:w-7/12 bg-white p-5 rounded-lg lg:rounded-l-none">
-						<h3 className="pt-4 text-2xl text-center text-blue-500">Solicita orientación!</h3>
+						<h3 className="pt-4 text-2xl text-center text-blue-500">Trabaja con Nosotros!</h3>
 						<form className="px-8 pt-6 pb-8 mb-4 bg-white rounded">
 							<div className="mb-4 md:flex md:justify-between">
 								<div className="mb-4 md:mr-2 md:mb-0">
