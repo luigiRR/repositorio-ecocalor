@@ -75,7 +75,18 @@ export default function Home() {
                     <p className="text-justify text-sm md:text-base">
                         La moderna tecnología del sistema de instalación térmica,
                         permite obtener una calefacción en los ambientes de la edificación,
-                        utilizando la radiación del sol...
+                        utilizando la radiación del sol, que por medio de la emisión, propagación y
+                        transferencia de energia en forma de ondas electromagnéticas o partículas, que proporciona calor;
+                        el cual viene transferida al fluido vector, esta energia incrementa el calor
+                        del fluido al interno de las tuberias.
+                        El incremento de temperatura del fluido vector es transmitido a los
+                        ambientes requeridos por medio de los escambiadores de calor,
+                        utilizando la convección y radiación para transferir calor.
+                        Nuestro sistema de instalación térmica, se integra
+                        perfectamente con las envolventes de la edificación; otorgando
+                        como resultado el comfort térmico deseado, con temperaturas comprendidas 
+                        entre 20°C y 25°C con una humedad relativa entre 40% y 60%; siendo estos los
+                        parametros para un correcto ambiente comfortable, según el organismo internacional ASHRAE.
                     </p>
                 </div>
 

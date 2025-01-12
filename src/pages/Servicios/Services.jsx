@@ -11,7 +11,7 @@ export default function Services() {
             <Slider/>
             <TitleHead>analizamos las necesidades energeticas termicas de las edificcaciones otorgando soluciones personalizadas</TitleHead>
             
-            <div className="container grid grid-cols-2 gap-4">
+            <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-8">
                 <div className="pt-4">
                     <h3 className="uppercase text-red-700 font-bold">estudio tecnico de los envolventes</h3>
                     <div>
@@ -191,6 +191,7 @@ export default function Services() {
                         <img className='w-80 service1 object-cover rounded-lg shadow-md' alt="decorative" src='https://firebasestorage.googleapis.com/v0/b/supporttickets-cb452.appspot.com/o/ecocalor%2FImagen%20de%20WhatsApp%202024-08-31%20a%20las%2010.55.50_abc2537f.jpg?alt=media&token=0c054931-1402-475d-8cd4-8d3570650112'/>
                     </div>
                 </div>
+                <br />
             </div>
         
             <Footer></Footer>
