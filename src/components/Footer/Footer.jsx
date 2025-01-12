@@ -5,96 +5,89 @@ import { faFacebook, faInstagram, faTwitter, faYoutube, faTiktok } from '@fortaw
 
 export default function Footer() {
     return (
-        <footer className="bg-gray-700 text-gray-50">
-            <div className="container mx-auto px-4 sm:px-6 lg:px-20 py-8">
-                {/* Contenedor principal */}
-                <div className="flex flex-col lg:flex-row justify-between">
-                    {/* Columna izquierda */}
-                    <div className="mb-8 lg:mb-0 lg:w-2/3">
-                        <div className="mb-6">
-                            <h2 className="text-xl font-bold">SOL DE MIMMI</h2>
-                            <p className="mt-4 text-justify">
-                                SOL DE MIMMI es un sitio para desarrolladores, estudiantes y aprendices, donde pueden
-                                obtener cientos de componentes de HTML y probar código en línea rápidamente.
+        <div className="bg-cover bg-center">
+            <div className="bg-gray-700">
+                <div className="container mx-auto px-4 sm:px-6 lg:px-20 py-6">
+                    <div className="flex flex-col lg:flex-row">
+                        <div className="w-full lg:w-2/3 mb-6 lg:mb-0">
+                            <div className="flex flex-col lg:flex-row">
+                                <div className="w-full lg:w-1/2 mb-6 lg:mb-0">
+                                    <h2 className="font-bold text-xl text-gray-50 mb-4">SOL DE MIMMI</h2>
+                                    <p className="text-gray-50 text-justify">
+                                        SOL DE MIMMI es un sitio para desarrolladores, estudiantes y aprendices,
+                                        donde pueden obtener cientos de componentes de HTML y probar código en línea rápidamente.
+                                    </p>
+                                    <div className="flex mt-6 space-x-2">
+                                        <FontAwesomeIcon icon={faFacebook} className="text-white text-2xl" />
+                                        <FontAwesomeIcon icon={faInstagram} className="text-white text-2xl" />
+                                        <FontAwesomeIcon icon={faTwitter} className="text-white text-2xl" />
+                                        <FontAwesomeIcon icon={faYoutube} className="text-white text-2xl" />
+                                    </div>
+                                </div>
+                                <div className="w-full lg:w-1/2 flex flex-col lg:flex-row lg:space-x-6">
+                                    <div className="mb-6 lg:mb-0 w-full lg:w-1/2">
+                                        <h2 className="font-bold text-gray-50 mb-4 text-xl">Menú</h2>
+                                        <ul className="text-gray-50 text-sm">
+                                            <li className="pt-1 pb-2"><Link to="/">Inicio</Link></li>
+                                            <li className="pt-1 pb-2"><Link to="/Doc">Documentos</Link></li>
+                                            <li className="pt-1 pb-2"><Link to="/About">Nosotros</Link></li>
+                                            <li className="pt-1 pb-2"><Link to="/Services">Servicios</Link></li>
+                                            <li className="pt-1 pb-2"><Link to="/Contact">Contactanos</Link></li>
+                                        </ul>
+                                    </div>
+                                    <div className="w-full lg:w-1/2">
+                                        <h2 className="font-bold text-gray-50 mb-4 text-xl">Redes Sociales</h2>
+                                        <ul className="text-gray-50 text-sm">
+                                            <li className="pt-1 pb-2">
+                                                <a href="https://www.facebook.com/EcocalorCV" className="flex items-center hover:text-blue-700">
+                                                    <span className="mr-2">Facebook</span>
+                                                    <FontAwesomeIcon icon={faFacebook} size="lg" />
+                                                </a>
+                                            </li>
+                                            <li className="pt-1 pb-2">
+                                                <a href="https://www.instagram.com/ecocalorcv/" className="flex items-center hover:text-red-400">
+                                                    <span className="mr-2">Instagram</span>
+                                                    <FontAwesomeIcon icon={faInstagram} size="lg" />
+                                                </a>
+                                            </li>
+                                            <li className="pt-1 pb-2">
+                                                <a href="https://twitter.com/EcocalorCV" className="flex items-center hover:text-blue-400">
+                                                    <span className="mr-2">Twitter</span>
+                                                    <FontAwesomeIcon icon={faTwitter} size="lg" />
+                                                </a>
+                                            </li>
+                                            <li className="pt-1 pb-2">
+                                                <a href="https://www.youtube.com/channel/UCKy5yVeXVXekNkyq5c2jtwg" className="flex items-center hover:text-red-600">
+                                                    <span className="mr-2">YouTube</span>
+                                                    <FontAwesomeIcon icon={faYoutube} size="lg" />
+                                                </a>
+                                            </li>
+                                            <li className="pt-1 pb-2">
+                                                <a href="" className="flex items-center hover:text-pink-500">
+                                                    <span className="mr-2">TikTok</span>
+                                                    <FontAwesomeIcon icon={faTiktok} size="lg" />
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="w-full lg:w-1/3 text-gray-50 text-sm">
+                            <p className="text-justify mb-6">
+                                Si envías un e-mail con tus datos personales, estos serán utilizados únicamente para responder
+                                tu mensaje. No compartiremos tus datos con terceros.
+                            </p>
+                            <p className="text-center mb-6">
+                                © 2021 <span className="font-bold">SOL DE MIMMI</span> - Todos los derechos reservados.
+                            </p>
+                            <p className="text-center">
+                                Diseñado por <span className="font-bold">SOL DE MIMMI</span>
                             </p>
                         </div>
-                        <div className="flex space-x-4">
-                            <a href="#" aria-label="Facebook">
-                                <FontAwesomeIcon icon={faFacebook} className="text-white text-2xl hover:text-blue-700" />
-                            </a>
-                            <a href="#" aria-label="Instagram">
-                                <FontAwesomeIcon icon={faInstagram} className="text-white text-2xl hover:text-pink-500" />
-                            </a>
-                            <a href="#" aria-label="Twitter">
-                                <FontAwesomeIcon icon={faTwitter} className="text-white text-2xl hover:text-blue-400" />
-                            </a>
-                            <a href="#" aria-label="YouTube">
-                                <FontAwesomeIcon icon={faYoutube} className="text-white text-2xl hover:text-red-600" />
-                            </a>
-                            <a href="#" aria-label="TikTok">
-                                <FontAwesomeIcon icon={faTiktok} className="text-white text-2xl hover:text-pink-400" />
-                            </a>
-                        </div>
                     </div>
-                    {/* Columna derecha */}
-                    <div className="lg:w-1/3">
-                        <div className="grid grid-cols-2 gap-6">
-                            <div>
-                                <h3 className="font-bold text-xl mb-4">Menú</h3>
-                                <ul>
-                                    <li className="mb-2"><Link to="/" className="hover:underline">Inicio</Link></li>
-                                    <li className="mb-2"><Link to="/Doc" className="hover:underline">Documentos</Link></li>
-                                    <li className="mb-2"><Link to="/About" className="hover:underline">Nosotros</Link></li>
-                                    <li className="mb-2"><Link to="/Services" className="hover:underline">Servicios</Link></li>
-                                    <li><Link to="/Contact" className="hover:underline">Contáctanos</Link></li>
-                                </ul>
-                            </div>
-                            <div>
-                                <h3 className="font-bold text-xl mb-4">Redes Sociales</h3>
-                                <ul>
-                                    <li className="mb-2">
-                                        <a href="#" className="flex items-center hover:underline">
-                                            <FontAwesomeIcon icon={faFacebook} className="mr-2" />
-                                            Facebook
-                                        </a>
-                                    </li>
-                                    <li className="mb-2">
-                                        <a href="#" className="flex items-center hover:underline">
-                                            <FontAwesomeIcon icon={faInstagram} className="mr-2" />
-                                            Instagram
-                                        </a>
-                                    </li>
-                                    <li className="mb-2">
-                                        <a href="#" className="flex items-center hover:underline">
-                                            <FontAwesomeIcon icon={faTwitter} className="mr-2" />
-                                            Twitter
-                                        </a>
-                                    </li>
-                                    <li className="mb-2">
-                                        <a href="#" className="flex items-center hover:underline">
-                                            <FontAwesomeIcon icon={faYoutube} className="mr-2" />
-                                            YouTube
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" className="flex items-center hover:underline">
-                                            <FontAwesomeIcon icon={faTiktok} className="mr-2" />
-                                            TikTok
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                {/* Pie de página */}
-                <div className="mt-8 text-center text-sm">
-                    <p className="mb-2">
-                        Si envías un e-mail con tus datos personales, estos serán utilizados únicamente para responder tu mensaje. No compartiremos tus datos con terceros.
-                    </p>
-                    <p>© 2025 <span className="font-bold">SOL DE MIMMI</span> - Todos los derechos reservados.</p>
                 </div>
             </div>
-        </footer>
+        </div>
     );
 }
