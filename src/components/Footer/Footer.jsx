@@ -24,7 +24,7 @@ export default function Footer() {
                                         <FontAwesomeIcon icon={faYoutube} className="text-white text-2xl" />
                                     </div>
                                 </div>
-                                <div className="w-full lg:w-1/2 flex flex-col lg:flex-row lg:space-x-6">
+                                <div className="w-full lg:w-1/2 flex">
                                     <div className="mb-6 lg:mb-0 w-full lg:w-1/2">
                                         <h2 className="font-bold text-gray-50 mb-4 text-xl">Menú</h2>
                                         <ul className="text-gray-50 text-sm">
