@@ -55,7 +55,7 @@ export default function About() {
                     </div>
                     <div className="flex flex-col items-center">
                         <p className="text-gray-700 mb-5">
-                            Descarga nuestros recursos para conocer más sobre el desarrollo de confort térmico y sus beneficios.
+                            Descarga nuestros recursos para conocer más sobre el desarrollo del confort térmico y sus beneficios.
                         </p>
                         <div className="flex space-x-4">
                             <button

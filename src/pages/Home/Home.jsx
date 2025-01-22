@@ -53,7 +53,7 @@ export default function Home() {
                         Representa la opción del organismo humano de cambiar con el ambiente la
                         cantidad de calor necesaria para la función metabólica, a través
                         de una equilibrada relación entre los procesos de radiación,
-                        convención y conducción, sudoración y respiración; los factores
+                        convención y conducción; sudoración y respiración; los factores
                         que determinan el confort térmico son muchos, pero los más
                         importantes son:
                     </p>
@@ -75,10 +75,10 @@ export default function Home() {
                         instalacion termica
                     </h2>
                     <p className="text-justify text-sm md:text-base">
-                        La moderna tecnología del sistema de instalación térmica,
+                        Una de las modernas tecnologías de los sistema de instalación térmica,
                         permite obtener una calefacción en los ambientes de la edificación,
                         utilizando la radiación del sol, que por medio de la emisión, propagación y
-                        transferencia de energia en forma de ondas electromagnéticas o partículas, que proporciona calor;
+                        transferencia de energia en forma de ondas electromagnéticas o partículas, proporciona calor;
                         el cual viene transferida al fluido vector, esta energia incrementa el calor
                         del fluido al interno de las tuberias.
                         El incremento de temperatura del fluido vector es transmitido a los

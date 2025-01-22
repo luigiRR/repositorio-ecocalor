@@ -11,16 +11,18 @@ export default function Services() {
             <Slider/>
             <TitleHead>analizamos las necesidades energeticas termicas de las edificcaciones otorgando soluciones personalizadas</TitleHead>
             
+            <br></br>
+
             <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-8">
                 <div className="pt-4">
-                    <h3 className="uppercase text-red-700 font-bold">estudio tecnico de los envolventes</h3>
+                    <h3 className="uppercase text-red-700 font-bold">estudio tecnico de las envolventes</h3>
                     <div>
                         <p className="text-justify">
-                            Es la verifica de la resistencia térmica de la susperficie de los envolventes,
-                            así como de sus componentes moleculares las culaes avitan el flujo de calor del ambiente 
+                            Es la verificación de la resistencia térmica de la susperficie de las envolventes,
+                            así como de sus componentes moleculares las cuales transfieren el flujo de calor del ambiente 
                             interno al externo; 
                             para lo cual se realiza un estudio de la transmitanza, conductividad 
-                            y conductancia de cada uno de los elementos que conforman los envolventes de la edificación.
+                            y conductancia de cada uno de los elementos que conforman las envolventes de la edificación.
                         </p>
                         <br />
                 
@@ -30,20 +32,20 @@ export default function Services() {
                             algunos materiales de
                             construcción tienen una alta afinidad con el agua al estado liquido
                             o vapor, por lo tanto los materilaes modifican su comportanmiento
-                            de tal forma que alteran su servicios en durabilidad, resistencia estructural,
+                            de tal forma que alteran su servicio de durabilidad, resistencia estructural,
                             y resistencia térmica. El agua en los poros de los diversos materiales de costruccion
                             pueden modificar el comportamiento térmico de una pared, porque aumentará el flujo
                             térmico por conducción.
-                            El procedimiento para el calculo de verífica con el diagrama Glasser de una 
-                            envolvente: 
+                            El procedimiento para el calculo de la veríficación con el diagrama Glasser de una 
+                            envolvente, es la siguiente:
                         </p>
                         <p className="text-justify">-definición de la condicion al contorno (temperatura interna, humedad relativa interna,
                             temperatura externa y humedad relativa externa).</p>
-                        <p className="text-justify">-definición de las caracteristicas de los materilaes que constituyen la envolvente (espesor, 
+                        <p className="text-justify">-definición de las caracteristicas de los materiales que constituyen la envolvente (espesor, 
                             conductividad, permiabilidad al paso del vapor).</p>
-                        <p className="text-justify">-calculo de la transmitanza.</p>
-                        <p >-calculo de la termperatura de la superficie interna.
-                            Con el calculo de la transmitancia (Diagrama de Glasser) se verifica la causa de
+                        <p className="text-justify">-calculo de la transmitancia.</p>
+                        <p >-cálculo de la termperatura de la superficie interna.
+                            Con el cálculo de la transmitancia (Diagrama de Glasser) se verifica la causa de
                             formación de condensación en las envolventes. Estas podrán ser
                             identificadas por :</p>
                         <p className="text-justify">
@@ -70,30 +72,30 @@ export default function Services() {
                         <br />
 
                         <h5 className="text-red-700 font-bold">
-                            VERIFICA TERMOHIDROMETICA
+                            VERIFICACION TERMOHIGROMETICO
                         </h5>
-                        <h4>Puentes Termicos</h4>
+                        <h4>De Los Puentes Térmicos:</h4>
                         <p className="text-justify">
-                            Es una area determinada al interior de la edificación; sobre las superficie de las envolventes afectadas se localiza 
-                            el mayor flujo de calor.
+                            Es una área determinada al interior de la edificación; localizada sobre las superficie de las envolventes afectadas se procede 
+                            con el mayor flujo de calor.
                             Verificandose los siguientes fenómenos:
                         </p>
                         <p className="text-justify">-Condensacion sobre la superficie</p>
                         <p className="text-justify">-Formación de mogo y algas</p>
-                        <p className="text-justify">-Disminucion del confort térmico</p>
+                        <p className="text-justify">-Disminución del confort térmico</p>
                         <p className="text-justify">-Daños a la superficie</p>
                         <br/>
                         <h5 className="text-red-700 font-bold">ANALISIS TERMOGRAFICO</h5>
                         <p className="text-justify">
                             El analisis termografico se realiza utilizando la termocamara la cual capta la 
                             radiación del campo infrarojo y cumple medidas relacionadas con la emision de radiación,
-                            este instrumento es en grado de captar la temperatura de los cuerpos a travez de la medicion
-                            de la intensidad de radiacion infraroja que emite el cuerpo en examen.
-                            Todos los objetos a un temperatura superior al 0 absoluto emiten radiacion en el campo del infrarojo.
-                            La termografia permite individuar las anomalias en la emision de la enegía de los 
+                            este instrumento es en grado de captar la temperatura de los cuerpos a través de la medición
+                            de la intensidad de radiación infrarroja que emite el cuerpo en examen.
+                            Todos los objetos a un temperatura superior al 0 absoluto emiten radiación en el campo del infrarrojo.
+                            La termografia permite individuar las anomalias en la emisión de la energía de los 
                             cuerpos en análisis y por lo tanto determina la emisividad de las anomalias térmicas. 
-                            Los puentes térmicos, son una discontinuidad de la dispocision geometrica, unión de materiales de caracteristicas 
-                            termicas diversas, y falta de isolamentos sobre las envolventes.
+                            Los puentes térmicos, son una discontinuidad de la dispocisión geometrica, unión de materiales de caracteristicas 
+                            térmicas diversas, y falta de isolamentos sobre las envolventes.
                             Estan situados en las zonas formadas por
                             ángulos, (0◦ a 360◦) de cualquier elemento construcctivo del
                             edificio, por ejemplo, en los nudos entre losas aligeradas y
@@ -116,7 +118,6 @@ export default function Services() {
                 <div>
                     {/* DROPDOWN */}
                     <h3 className="uppercase text-2xl text-blue-700 font-bold">sistemas de calefaccion</h3> 
-                    <span>BOTON PARA DESCARGAR DOC WORD</span>
                     <div className="pt-2">
                         <h5 className="">SEGUN EL CONSUMO DE SERVICIO</h5>
                         <div className="pl-10">
