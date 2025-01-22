@@ -14,12 +14,14 @@ export default function Home() {
                 desarrollamos sistemas orientados a la eficiencia de la energia termica
             </TitleHead>
 
+            <br></br>
+
             {/* Grid responsivo */}
             <div className="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-6 px-4 lg:px-8 mb-8">
                 {/* Primera sección de texto */}
                 <div className="p-4 lg:p-0">
                     <p className="pb-4 text-red-700 text-xl lg:text-2xl">
-                        ¿Cuanta energía termica necesita una edificación?
+                        ¿Cuanta energía térmica necesita una edificación?
                     </p>
                     <p className="text-justify text-sm md:text-base">
                         Los principales problemas que por conservación y convención se
