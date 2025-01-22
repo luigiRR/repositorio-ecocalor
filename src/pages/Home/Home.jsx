@@ -27,7 +27,7 @@ export default function Home() {
                         ventilación, es el NO estudio del diseño, la instalación y
                         el funcionamiento de las envolventes (muros, losa de techo y pisos) de las
                         edificaciones; las cuales cumplen una función principal dentro
-                        del sistema del comfort térmico; por lo tanto, la
+                        del sistema del confort térmico; por lo tanto, la
                         energía que necesita una edificación esta directamente
                         relacionada a la función mecánica de las envolventes y los elementos al interior de la edificacion.
                     </p>
@@ -45,14 +45,14 @@ export default function Home() {
                 {/* Segunda sección de texto */}
                 <div className="p-4 lg:p-0">
                     <h2 className="uppercase text-red-700 text-xl lg:text-2xl">
-                        el comfort termico
+                        el confort termico
                     </h2>
                     <p className="text-justify pb-4 text-sm md:text-base">
                         Representa la opción del organismo humano de cambiar con el ambiente la
                         cantidad de calor necesaria para la función metabólica, a través
                         de una equilibrada relación entre los procesos de radiación,
                         convención y conducción, sudoración y respiración; los factores
-                        que determinan el comfort térmico son muchos, pero los más
+                        que determinan el confort térmico son muchos, pero los más
                         importantes son:
                     </p>
                     <Modals />
@@ -70,7 +70,7 @@ export default function Home() {
                 {/* Tercera sección de texto */}
                 <div className="p-4 lg:p-0">
                     <h2 className="uppercase text-red-700 text-xl lg:text-2xl">
-                        instalación térmica
+                        instalacion termica
                     </h2>
                     <p className="text-justify text-sm md:text-base">
                         La moderna tecnología del sistema de instalación térmica,
@@ -84,9 +84,9 @@ export default function Home() {
                         utilizando la convección y radiación para transferir calor.
                         Nuestro sistema de instalación térmica, se integra
                         perfectamente con las envolventes de la edificación; otorgando
-                        como resultado el comfort térmico deseado, con temperaturas comprendidas 
+                        como resultado el confort térmico deseado, con temperaturas comprendidas 
                         entre 20°C y 25°C con una humedad relativa entre 40% y 60%; siendo estos los
-                        parametros para un correcto ambiente comfortable, según el organismo internacional ASHRAE.
+                        parametros para un correcto ambiente confortable, según el organismo internacional ASHRAE.
                     </p>
                 </div>
 

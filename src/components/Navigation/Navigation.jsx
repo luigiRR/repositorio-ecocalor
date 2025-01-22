@@ -66,16 +66,28 @@ export default function Navigation() {
   };
 
   const logoStyle = {
-    height: "60px",
+    height: "150px",
     marginRight: "1rem",
+  };
+
+  const mobileTextStyle = {
+    flexGrow: 1,
+    //textAlign: "center",
+    marginLeft:"30px",
+    fontSize: "1.5rem",
+    color: "#cb3636",
+    fontWeight: "bold",
   };
 
   return (
     <nav style={navStyle}>
       {/* Logo */}
-      <Link to="/" style={{ flexGrow: 1 }}>
+      <Link to="/" style={{ flexGrow: isMobile ? 0 : 1 }}>
         <img src={Logo} alt="Logo" style={logoStyle} />
       </Link>
+
+      {/* Texto "SOL DE MIMMI" para móviles */}
+      {isMobile && <div style={mobileTextStyle}>SOL DE MIMMI</div>}
 
       {/* Menú móvil */}
       {isMobile ? (

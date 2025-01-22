@@ -80,7 +80,7 @@ export default function Services() {
                         </p>
                         <p className="text-justify">-Condensacion sobre la superficie</p>
                         <p className="text-justify">-Formación de mogo y algas</p>
-                        <p className="text-justify">-Disminucion del comfort térmico</p>
+                        <p className="text-justify">-Disminucion del confort térmico</p>
                         <p className="text-justify">-Daños a la superficie</p>
                         <br/>
                         <h5 className="text-red-700 font-bold">ANALISIS TERMOGRAFICO</h5>
@@ -132,9 +132,9 @@ export default function Services() {
                         </div>
                         <br />
                         <div className="">
-                            <h5 className="">SEGÚN EL PRINCIPIO DE DIFUSIÓN</h5>
+                            <h5 className="">SEGUN EL PRINCIPIO DE DIFUSIÓN</h5>
                             <br />
-                            <p className="">CALEFACCIÓN</p>
+                            <p className="">CALEFACCION</p>
                             <div className="pl-10">
                                 <li className="">
                                     <strong>Conducción:</strong> Transferimiento de energía que se
@@ -158,7 +158,7 @@ export default function Services() {
                             </div>
                         </div>
                         <br />
-                        <p className="estado">VENTILACIÓN</p>
+                        <p className="estado">VENTILACION</p>
                         <div className="pl-10">
                             <li>
                                 <strong>Ventilación y deshumedecimiento:</strong> La humedad
@@ -177,7 +177,7 @@ export default function Services() {
                             </li>
                         </div>
                             <br></br>
-                        <h5 className="">SEGÚN LA FUENTE</h5>
+                        <h5 className="">SEGUN LA FUENTE</h5>
                         <p>
                             <strong>Sol, Aire, Agua y Vapor</strong>
                         </p>

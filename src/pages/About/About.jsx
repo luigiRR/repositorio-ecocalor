@@ -10,7 +10,7 @@ export default function About() {
             <Navigation />
             <Slider />
             <TitleHead>
-                realizamos progresos para el desarrollo del comfort termico de calidad
+                realizamos progresos para el desarrollo del confort termico de calidad
             </TitleHead>
 
             <div className="container max-w-screen-lg mx-auto px-4 sm:px-6">
@@ -45,7 +45,7 @@ export default function About() {
                         <p className="text-justify text-base sm:text-lg">
                             Consolidar en el mercado de las edificaciones sea en la construcción 
                             y la comercialización, el factor climatológico, como nuevo punto
-                            estratégico primordial; para el comfort de los usuarios.
+                            estratégico primordial; para el confort de los usuarios.
                         </p>
                     </div>
 

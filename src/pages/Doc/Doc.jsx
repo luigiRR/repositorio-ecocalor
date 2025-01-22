@@ -46,7 +46,7 @@ export default function About() {
             <div className="container mx-auto py-8">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
                     <div className="text-center">
-                        <h3 className="uppercase text-2xl text-blue-700 font-bold mb-5">Diagrama de las Isotermias</h3>
+                        <h3 className="uppercase text-2xl text-blue-700 font-bold mb-5">Diagrama Isotermico</h3>
                         <img
                             className="h-85 w-full object-cover rounded-lg shadow-md"
                             alt="Diagrama de Isoterma"
@@ -55,7 +55,7 @@ export default function About() {
                     </div>
                     <div className="flex flex-col items-center">
                         <p className="text-gray-700 mb-5">
-                            Descarga nuestros recursos para conocer más sobre el desarrollo de comfort térmico y sus beneficios.
+                            Descarga nuestros recursos para conocer más sobre el desarrollo de confort térmico y sus beneficios.
                         </p>
                         <div className="flex space-x-4">
                             <button
